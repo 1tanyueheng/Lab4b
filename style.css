@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Lab 4b - JSON and jQuery
+   Tan Yue Heng | AI240167 | BIC21203 Web Development
+
+   Simple W3Schools-style stylesheet shared by books.html and jquery-dom.html
+   ========================================================================== */
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 20px 40px;
+    color: #333333;
+}
+
+h1 {
+    font-size: 24px;
+    color: #282A35;
+    border-bottom: 2px solid #04AA6D;
+    padding-bottom: 8px;
+}
+
+p {
+    margin: 8px 0;
+}
+
+/* result areas for Question 2 */
+#firstTitle,
+#secondAuthor {
+    font-size: 18px;
+    font-weight: bold;
+    color: #04AA6D;
+    background-color: #F1F1F1;
+    border-left: 6px solid #04AA6D;
+    padding: 8px 12px;
+}
+
+#genres {
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+#genres li {
+    background-color: #F1F1F1;
+    border-left: 6px solid #04AA6D;
+    padding: 8px 12px;
+    margin-bottom: 6px;
+}
+
+/* error message for Question 2 */
+#error {
+    color: #F44336;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* elements for Question 3 */
+#myElement,
+#myDIV {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 10px 0;
+}
+
+/* green button, W3Schools style */
+button {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 18px;
+    font-size: 15px;
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #059862;
+}
