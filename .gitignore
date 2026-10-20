@@ -1,0 +1,17 @@
+# Lab 4b - keep test scripts and local artefacts out of the repository
+
+# Automated test scripts used during development (evidence only, not submitted)
+tests/
+
+# Python caches created by the test scripts
+__pycache__/
+*.pyc
+
+# Temporary Chrome profile used by the test scripts
+.chrome-test-profile/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
